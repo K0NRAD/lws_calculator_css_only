@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <form class="calculator" name="calc">
-        <input type="text" name="txt" id="" class="value" placeholder="0" readonly />
+        <input type="text" name="txt" id="display" class="value" placeholder="0" readonly />
         <span class="num clear" onclick="calc.txt.value=''">C</span>
         <span class="num" onclick="document.calc.txt.value+='/'">/</span>
         <span class="num" onclick="document.calc.txt.value+='*'">*</span>
@@ -38,7 +38,6 @@
         "max-glare":0.2
       });
 
-      VanillaTilt.init(document.querySelectorAll(".container"));
     </script>
   </body>
 </html>
